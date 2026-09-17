@@ -14,6 +14,7 @@ def main():
     print(f"Total Berat           {berat} kg")
     print(f"Harga per kg          Rp{harga:,}")
     print(f"Total Pendapatan Awal Rp{total:,}")
+    print(f"Total Setelah Diskon  Rp{total_setelah_diskon:,.0f}")
 
 if __name__ == "__main__":
     main()
